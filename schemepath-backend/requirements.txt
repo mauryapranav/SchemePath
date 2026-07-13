@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+neo4j
+pydantic
+pydantic-settings
+python-dotenv
+google-genai
+groq
+httpx
+python-multipart
+websockets

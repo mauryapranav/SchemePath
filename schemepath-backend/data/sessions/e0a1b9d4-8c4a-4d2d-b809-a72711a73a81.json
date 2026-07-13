@@ -1,0 +1,70 @@
+[
+  {
+    "role": "user",
+    "content": "I run a small street food stall and I'm looking to expand my business. My annual income is around 1.5 lakhs."
+  },
+  {
+    "role": "assistant",
+    "content": "\ud83d\udccb Let me see what schemes might be available to help you expand your business. \n\n",
+    "tool_calls": [
+      {
+        "id": "s66szf8zn",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"street food, small business, expansion, low income\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "s66szf8zn",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "8k8s94wjb",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"food business, small business, low income\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "8k8s94wjb",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "6rt2cz64k",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"business expansion, low income\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "6rt2cz64k",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, but it seems that the system currently lacks matching schemes for your situation. Can you please provide more details about your business expansion plans? \ud83d\udccb"
+  }
+]

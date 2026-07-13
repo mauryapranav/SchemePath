@@ -1,0 +1,206 @@
+[
+  {
+    "role": "user",
+    "content": "I am a 22 year old woman from Bihar, I want to start a small tailoring business"
+  },
+  {
+    "role": "assistant",
+    "content": "\ud83d\udccb Let's find some government schemes that can support your tailoring business. \n\n",
+    "tool_calls": [
+      {
+        "id": "bxwggp0gm",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"women, entrepreneurship, tailoring, Bihar\",\"state\":\"Bihar\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "bxwggp0gm",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "nd74en80f",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"women, entrepreneurship, tailoring\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "nd74en80f",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "fejw1eg9w",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"women, entrepreneurship\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "fejw1eg9w",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, the system currently lacks matching schemes for your situation. Can you please provide more details about your business, like what kind of tailoring services you want to offer or what kind of help you are looking for? \ud83d\udccb"
+  },
+  {
+    "role": "user",
+    "content": "Yes"
+  },
+  {
+    "role": "assistant",
+    "content": "Since you're looking to start a small tailoring business, I'd like to know more about your plans. What kind of equipment or funding do you think you'll need to get started? Additionally, have you considered registering your business or obtaining any necessary licenses? \ud83d\udccb\n\n",
+    "tool_calls": [
+      {
+        "id": "nx89sh75j",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"women, entrepreneurship, small business, tailoring\",\"state\":\"Bihar\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "nx89sh75j",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "w7m591eqa",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"women, entrepreneurship, small business, tailoring\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "w7m591eqa",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "dt6aenf5p",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"women, entrepreneurship, small business\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "dt6aenf5p",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, the system currently lacks matching schemes for your situation. However, I can suggest that you look into general schemes for entrepreneurship and small businesses in India. Would you like to know more about those? \ud83d\udccb"
+  },
+  {
+    "role": "user",
+    "content": "I want to start a street stall I'm a 22 year old women from bihar"
+  },
+  {
+    "role": "assistant",
+    "content": "\ud83d\udccb Starting a street stall can be a great venture. Let me see what schemes might be available to support you. \n",
+    "tool_calls": [
+      {
+        "id": "gqsgf83dq",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"women, street vendor, entrepreneurship, Bihar\",\"state\":\"Bihar\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "gqsgf83dq",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "za5bff9z2",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"women, street vendor, entrepreneurship\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "za5bff9z2",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "rn3dzgtay",
+        "type": "function",
+        "function": {
+          "name": "search_schemes",
+          "arguments": "{\"intent_tags\":\"street vendor, entrepreneurship\",\"state\":\"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "rn3dzgtay",
+    "name": "search_schemes",
+    "content": "{\"status\": \"success\", \"schemes\": []}"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry, the system currently lacks matching schemes for your situation. However, I can suggest that you look into the **PM SVANidhi Scheme** which is a central government scheme for street vendors. Would you like to know more about it? \ud83d\udccb"
+  }
+]
